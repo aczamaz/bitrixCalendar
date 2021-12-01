@@ -1,0 +1,56 @@
+.table-week-name
+{
+    margin-bottom: 0;
+}
+.table .cell 
+{
+    padding:0;
+}
+.table .cell
+{
+    width: 100%;
+    min-height: 70px;
+    padding: .75rem;
+}
+.table .cell_border
+{
+    border:1px solid #222;
+    padding: 0px;
+    width: 70px;
+}
+.table
+{
+    border-collapse: collapse;
+}
+.table .cell_day
+{
+    font-size: 0.5rem;
+    height:20px;
+    padding-left:5px;
+}
+.select-item
+{
+    display: flex;
+}
+.filter
+{
+    display: flex;
+    padding:20px;
+}
+.select-item + .select-item
+{
+    margin-left: 20px;
+}
+.task
+{
+    width:40px;
+    word-wrap: break-word;
+    font-size: 0.5rem;
+    border-radius: 1px;
+    background-color: rgb(211, 211, 211);
+    cursor:pointer;
+}
+.task + .task
+{
+    margin-top: 2px;
+}
